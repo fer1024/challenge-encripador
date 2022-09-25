@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-principal {
+    background: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;   
+}
+.tarjeta{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(171, 171, 171);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tarjeta2{
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(171, 171, 171);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error {
+    color: #FFF;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+}
+
+button {
+    all: initial;
+    cursor: pointer;
+    user-select: none;
+    color: #FFF;
+    background:   red;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.contenedor-botones{
+    display: flex;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    font: white;
+}
+
+
+input {
+    all: initial;
+    font: inherit;
+    background: #999;
+    color: white;
+    padding: 1em 0.5em;
+}
+img{
+    width: 500px;
+    height: 300px;
+    float: right;
+    display: flex;
+    border-radius: 5px;
+}
+.cleanerFix{
+    float: none;
+    clear: both;
+}
